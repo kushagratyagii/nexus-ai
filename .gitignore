@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# RAG generated data
+uploads/
+faiss_index/
+vectorstore/
+
+# Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# Build
+dist/
+build/
+
+# Local test files
+stream-test.json

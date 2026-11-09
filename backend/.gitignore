@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Databases and checkpoints
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded documents and generated vector indexes
+uploads/
+faiss_index/
+vectorstore/
+
+# Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# Build files
+dist/
+build/
+
+# Temporary test files
+stream-test.json
